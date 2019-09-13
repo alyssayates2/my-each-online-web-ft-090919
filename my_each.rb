@@ -7,6 +7,7 @@ def my_each(array)
     yield(array[i])
     i = i + 1
   end
+  array 
 end
 
 my_each(list) {|i| return "So I think #{i} is a piece of shit"}
