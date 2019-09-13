@@ -1,4 +1,5 @@
-collection = [1, 2, 3, 4]
-while my_each(collection) do |i|
-  puts i
+collection = ["zebras", "horses", "monkeys", "dogs"]
+
+while my_each(collection)  # put argument(s) here
+   # code here
 end
